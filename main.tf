@@ -3,9 +3,8 @@ module "hcp" {
   client_id     = var.hcp_client_id
   client_secret = var.hcp_client_secret
   create_hvn    = true
-  hvn_cidr      = var.hcp_hvn_cidr
+  hvn_cidr     = "10.20.1.0/25"
 
-  hvn_count = 2
   consul_cluster = {
     enabled = "true"
     tier    = "development"

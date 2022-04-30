@@ -15,11 +15,6 @@ variable "create_hvn" {
   default     = true
 }
 
-variable "hvn_count" {
-  description = "Controls if HCP HVN should be created"
-  type        = string
-}
-
 variable "hvn_cloud_provider" {
     type = string
     description = "The provider where the HVN is located."
