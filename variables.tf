@@ -30,4 +30,5 @@ variable "hcp_hvn_aws_region" {
 variable "hcp_hvn_cidr" {
   type        = string
   description = "The CIDR range of the HVN"
+  default     = ""
 }
