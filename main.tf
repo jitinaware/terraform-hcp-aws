@@ -16,4 +16,5 @@ module "hcp" {
     enabled = "true"
     tier    = "dev"
   }
+  vault_public_endpoint = true
 }
