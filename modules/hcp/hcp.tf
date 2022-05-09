@@ -27,7 +27,7 @@ count = local.consul.enabled ? 1 : 0
   public_endpoint = var.consul_public_endpoint
 }
 
-resource "hcp_vault_cluster" "cc1" {
+resource "hcp_vault_cluster" "vc1" {
   count = local.vault.enabled ? 1 : 0
   cluster_id = "vault-${random_pet.suffix.id}"
   hvn_id     = hcp_hvn.main-hvn.*.hvn_id[count.index]
