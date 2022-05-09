@@ -5,3 +5,4 @@
 *.tfstate*
 *.tfvars
 .terraform
+!variables.auto.tfvars
