@@ -8,13 +8,13 @@ variable "hcp_create_hvn" {
 
 variable "hcp_client_id" {
   type        = string
-  description = ""
+  description = "HCP Client ID"
 }
 
 
 variable "hcp_client_secret" {
   type        = string
-  description = ""
+  description = "HCP Client Secret"
 }
 
 variable "hcp_hvn_aws_region" {
